@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | joneqing的个人博客</title>
+<title>Nginx搭建教程 | joneqing的个人博客</title>
 <meta name="description" content="">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -91,12 +91,64 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">Nginx搭建教程</h2>
+            <div class="post-date">2020-08-07</div>
             
-              <a class="tag" href="https://joneqing.github.com/tag/MaY7TnKmV">Nginx</a>
+              <div class="feature-container" style="background-image: url('https://joneqing.github.com/post-images/nginx-da-jian-jiao-cheng.jpg')">
+              </div>
             
+            <div class="post-content">
+              <p>Nginx是一个高性能的HTTP和反向代理的web服务站，同时也提供了IMAP/POP3/SMTP服务。</p>
+<!-- more -->
+<h2 id="mac上搭建nginx">Mac上搭建Nginx</h2>
+<ul>
+<li>安装Homebrew</li>
+<li>安装nginx</li>
+<li>验证结果</li>
+</ul>
+<ol>
+<li>安装Homebrew</li>
+</ol>
+<pre><code class="language-shell">/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&quot;
+</code></pre>
+<ol start="2">
+<li>安装nginx</li>
+</ol>
+<pre><code class="language-shell">brew install nginx
+</code></pre>
+<ol start="3">
+<li>验证结果
+安装完成后，可以通过以下命令启动nginx</li>
+</ol>
+<pre><code class="language-shell">brew services start nginx
+</code></pre>
+<p>启动成功后，可以在浏览器访问地址: http://localhost:8080</p>
+<h3 id="其他说明">其他说明</h3>
+<p>Nginx默认安装到 /usr/local目录下</p>
+<p>Nginx重启命令</p>
+<pre><code class="language-shell">brew services restart nginx
+</code></pre>
+<p>Nginx停止命令</p>
+<pre><code class="language-shell">brew services stop nginx
+</code></pre>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://joneqing.github.com/tag/MaY7TnKmV" class="tag">
+                    Nginx
+                  </a>
+                
+              </div>
+            
+            
+
+            
+
           </div>
+
         </div>
       </div>
     </div>
