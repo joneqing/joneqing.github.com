@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://joneqing.github.io</id>
-    <title>joneqing的个人博客</title>
-    <updated>2020-08-07T09:33:47.973Z</updated>
+    <title>一个前端打工人的自留地</title>
+    <updated>2021-03-29T10:46:39.918Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://joneqing.github.io"/>
     <link rel="self" href="https://joneqing.github.io/atom.xml"/>
     <subtitle>Stay Hungry, Stay Foolish</subtitle>
     <logo>https://joneqing.github.io/images/avatar.png</logo>
     <icon>https://joneqing.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, joneqing的个人博客</rights>
+    <rights>All rights reserved 2021, 一个前端打工人的自留地</rights>
     <entry>
         <title type="html"><![CDATA[Nginx搭建教程]]></title>
         <id>https://joneqing.github.io/post/nginx-da-jian-jiao-cheng/</id>
